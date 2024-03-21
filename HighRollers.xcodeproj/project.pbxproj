@@ -12,6 +12,8 @@
 		52B625972BAC879D007BAF99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B625962BAC879D007BAF99 /* Assets.xcassets */; };
 		52B6259A2BAC879D007BAF99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B625992BAC879D007BAF99 /* Preview Assets.xcassets */; };
 		52B625A12BAC8890007BAF99 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B625A02BAC8890007BAF99 /* Launch Screen.storyboard */; };
+		52B625A42BAC89EB007BAF99 /* HigherOrderFunctionsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B625A32BAC89EB007BAF99 /* HigherOrderFunctionsExample.swift */; };
+		52B625A62BAC966F007BAF99 /* ResultExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B625A52BAC966F007BAF99 /* ResultExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		52B625962BAC879D007BAF99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B625992BAC879D007BAF99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52B625A02BAC8890007BAF99 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		52B625A32BAC89EB007BAF99 /* HigherOrderFunctionsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherOrderFunctionsExample.swift; sourceTree = "<group>"; };
+		52B625A52BAC966F007BAF99 /* ResultExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 			children = (
 				52B625922BAC879C007BAF99 /* HighRollersApp.swift */,
 				52B625942BAC879C007BAF99 /* ContentView.swift */,
+				52B625A22BAC899B007BAF99 /* TutorialFiles */,
 				52B625962BAC879D007BAF99 /* Assets.xcassets */,
 				52B625A02BAC8890007BAF99 /* Launch Screen.storyboard */,
 				52B625982BAC879D007BAF99 /* Preview Content */,
@@ -68,6 +73,15 @@
 				52B625992BAC879D007BAF99 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52B625A22BAC899B007BAF99 /* TutorialFiles */ = {
+			isa = PBXGroup;
+			children = (
+				52B625A32BAC89EB007BAF99 /* HigherOrderFunctionsExample.swift */,
+				52B625A52BAC966F007BAF99 /* ResultExample.swift */,
+			);
+			path = TutorialFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B625952BAC879C007BAF99 /* ContentView.swift in Sources */,
+				52B625A62BAC966F007BAF99 /* ResultExample.swift in Sources */,
 				52B625932BAC879C007BAF99 /* HighRollersApp.swift in Sources */,
+				52B625A42BAC89EB007BAF99 /* HigherOrderFunctionsExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
